@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>Експрес Пътуване<</title>
+<title>ЖП Свят</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="W3.CSS%20Template_files/w3.css">
-<link rel="icon" href="favicon-32x32.png" type="image/png">
+<link rel="stylesheet" href="CSS/w3.css">
+<link rel="icon" href="images/favicon-32x32.png" type="image/png">
 
 </head>
 <body>
@@ -18,37 +18,35 @@
   </video>
   <a href="index.html">
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Експрес Пътуване</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">Експрес Пътуване</h5>
-    <h3 class="w3-hide-medium w3-hide-small">Вашето Следващо Приключение Започва Тук!</h3>
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">ЖП Свят</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">ЖП Свят</h5>
   </div>
   </a>
   
 </header>
 
-<!-- Navbar (Placed Below Header) -->
+<!-- Navbar (Desktop) -->
 <div class="navbar">
-  <a href="index.html" class="navbar-item">Начало</a>
-  <a href="vlakove.html" class="navbar-item">Влакове</a>
-  <a href="#cblog.html" class="navbar-item">Блог</a>
-  <a href="#contact.html" class="navbar-item">Контакти</a>
+  <a href="index.html" class="current-item">Начало</a>
+  <a href="HTML/vlakove.html" class="navbar-item">Влакове</a>
+  <a href="HTML/blog.html" class="navbar-item">Блог</a>
+  <a href="HTML/contacts.html" class="navbar-item">Контакти</a>
 </div>
 
-<!-- Navbar on small screens -->
-<div class="navbar-mobile w3-hide-large w3-hide-medium">
-  <a href="#" class="navbar-item">Начало</a>
-  <a href="#portfolio" class="navbar-item">Портфолио</a>
-  <a href="#contact" class="navbar-item">Контакти</a>
-</div>
-
-
-<!-- Navbar on small screens -->
-<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
-  <div class="w3-bar w3-light-grey" style="display: inline-flex; justify-content: center; border-radius: 20px;">
-    <a href="#" class="w3-bar-item w3-button">Начало</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Портфолио</a>
-    <a href="#contact" class="w3-bar-item w3-button">Контакти</a>
+<!-- Mobile Navbar with Checkbox for Toggling -->
+<div class="navbar-mobile">
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  <div class="navbar-links">
+    <a href="index.html" class="current-item">Начало</a>
+    <a href="HTML/vlakove.html" class="navbar-item">Влакове</a>
+    <a href="HTML/blog.html" class="navbar-item">Блог</a>
+    <a href="HTML/contacts.html" class="navbar-item">Контакти</a>
   </div>
+</div>
+
+<div class="what-to-see">
+  <p>Какво ще видите при нас: </p>
 </div>
 
 <!-- Page content -->
@@ -56,41 +54,61 @@
 
   <!-- Images (Portfolio) -->
  <!-- Trains Section -->
- <section class="trains-section">
+<section class="trains-section">
   <div class="train-frame">
       <img src="images/train1.jpg" alt="Train 1">
-      <h2>Турбо Влак</h2>
-      <button class="book-btn">Резервирай</button>
+      <h2>Maharajas' Express</h2>
+      <p class="train-info">Луксозен туристически влак, притежаван и управляван от Индийската Железопътна Корпорация за Кетъринг и Туризъм (ИЖККТ). Той обслужва четири маршрута в Северозападна и Централна Индия, главно в Раджастан, между месеците октомври и април.</p>
+      <a href="HTML/vlakove.html">
+        <button class="book-btn">Към списъка с влакове</button>
+      </a>
+      
   </div>
 
   <div class="train-frame">
       <img src="images/train2.jpg" alt="Train 2">
-      <h2>Одисей Плюс</h2>
-      <button class="book-btn">Резервирай</button>
+      <h2>Orient Express</h2>
+      <p class="train-info">Pътнически влак за дълги разстояния, създаден през 1883 г. от френското дружество Compagnie Internationale des Wagons-Lits (CIWL).</p>
+      <a href="HTML/vlakove.html">
+        <button class="book-btn">Към списъка с влакове</button>
+      </a>
   </div>
 
   <div class="train-frame">
       <img src="images/train3.jpg" alt="Train 3">
       <h2>Златен Хоризонт</h2>
-      <button class="book-btn">Резервирай</button>
+      <p class="train-info">Луксозен влак с ексклузивни купета, който предлага първокласно обслужване и комфорт за най-взискателните пътешественици.</p>
+      <a href="HTML/vlakove.html">
+        <button class="book-btn">Към списъка с влакове</button>
+      </a>
   </div>
 </section>
+
 
   <!-- Contact -->
   <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
     <h3 class="w3-center">Абонирай се!</h3>
     <hr>
     <p>
-      Абонирайте се за нашия бюлетин и се потопете в свят на вълнуващи приключения и незабравими пътешествия! С нас ще научите първи за специални оферти, тайни дестинации и перфектни съвети за пътуване. Всяка седмица ви подготвяме с нови оферти за турове, отстъпки и полезна информация, за да направим планирането лесно и вдъхновяващо. Изследвайте необичайни места и култури и изживейте магията на пътуването както никога досега. Направете всяко пътуване пълно с уникални моменти и спомени - започнете да правите първата крачка към нови хоризонти, като се абонирате за нашия бюлетин днес!</p>
+      Абонирайте се за нашия бюлетин и не пропускайте новите ни пътувания! С нас ще имате уникалната възможност да откриете вълнуващи дестинации, които ще обогатят вашето преживяване. Бъдете сред първите, които ще научат за специални оферти и намаления, достъпни само за абонати.
+    </p>
+
+    <p>
+      Всеки месец ще ви изпращаме актуални новини за предстоящи приключения, съвети за пътуване и вдъхновение за следващото ви пътуване. Независимо дали мечтаете за плажна почивка, планински туризъм или културно изживяване, нашият бюлетин ще ви помогне да планирате идеалната ваканция.
+    </p>
+
+    <p>
+      Присъединете се към нашето пътешественическо общество, попълнете формата за абонамент и се пригответе за незабравими спомени! 
+    </p>
 
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
-        <label>Име</label>
-        <input class="w3-input w3-border" type="text" required="" name="Name">
+        <label>Име: </label>
+        <input class="w3-input w3-border" type="text" required="" name="Name" placeholder="Въведете вашето име тук">
       </div>
       <div class="w3-section">
-        <label>Имейл адрес</label>
-        <input class="w3-input w3-border" type="text" required="" name="Email">
+        <label>Имейл адрес: </label>
+        <input class="w3-input w3-border" type="text" required="" name="Email" placeholder="Въведете вашия имейл адрес тук">
       </div>
       <div class="w3-section">
       </div>
@@ -104,13 +122,13 @@
 <footer class="footer">
   <div class="footer-content">
     <a href="index.html">
-      <img src="images/Black and White Train Transportation Logo.png" alt="Your Logo" class="footer-logo"> <!-- Replace with your logo path -->
+      <img src="images/logo.png" alt="Your Logo" class="footer-logo"> 
     </a>
     <div class="footer-links">
-      <a href="index.html" class="footer-link">Начало</a>
-      <a href="vlakove.html" class="footer-link">Влакове</a>
-      <a href="#cblog.html" class="footer-link">Блог</a>
-      <a href="#contact.html" class="footer-link">Контакти</a>
+      <a href="index.html" class="footer-link footer-content">Начало</a>
+      <a href="HTML/vlakove.html" class="footer-link footer-content">Влакове</a>
+      <a href="HTML/blog.html" class="footer-link footer-content">Блог</a>
+      <a href="HTML/contacts.html" class="footer-link footer-content">Контакти</a>
     </div>
     <div class="footer-social">
       <a href="https://facebook.com" class="social-link">Facebook</a>
