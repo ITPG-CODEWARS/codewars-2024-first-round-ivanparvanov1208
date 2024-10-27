@@ -1,4 +1,32 @@
-1. Използван е css от w3 schools
-2. Начини за стартиране на сайта: 
-    а) VSCode Live Server: 
-        1) Ако нямате Visual Studio Code, може да си го изтеглите от тук: [https://code.visualstudio.com/docs/?dv=win64user](https://code.visualstudio.com/docs/?dv=win64user)
+
+# ЖП Свят
+
+На вашето внимание моя проект: любителски сайт за влакове на име: ЖП Свят
+
+
+
+## Стартиране на сайта
+
+Сайта може да се стартира по два начина: 
+
+```bash
+    a) VSCode Live Server (инсталирайте Visual Studio Code от тук: https://code.visualstudio.com/docs/?dv=win64user
+        1) Отворете папката с приложението Visual Studio Code;
+        2) Отидете на менюто отстрани "extensions";
+        3) В търсачката горе вляво потърсете "Live Server";
+        4) Инсталирайте първото, което ви излезе;
+        5) След инсталация, долу вдясно ще ви излезе един бутон: 
+    "Go Live" кликнете го, като сте отворили файла index.html и 
+    сайта ще ви се зареди и ако искате да правите промени няма да има нужда да refresh-вате. Ще ви ги актуализира автоматично.
+    b) Чрез отваряне на основния script (index.html)
+
+```
+    
+## Допълнителна информация
+
+Използван е css от layout на w3 schools. 
+
+
+## Автор
+
+- [@ivanparvanov1208](https://www.github.com/ivanparvanov1208)
