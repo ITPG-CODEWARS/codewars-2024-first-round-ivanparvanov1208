@@ -1,1 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cxxOiUOi)
+1. Използван е css от w3 schools
+2. Начини за стартиране на сайта: 
+    а) VSCode Live Server: 
+        1) Ако нямате Visual Studio Code, може да си го изтеглите от тук: [https://code.visualstudio.com/docs/?dv=win64user](https://code.visualstudio.com/docs/?dv=win64user)
