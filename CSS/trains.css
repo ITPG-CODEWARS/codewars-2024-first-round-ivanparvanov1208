@@ -340,11 +340,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
   
   .footer-logo {
-    width: 100%; /* Full-size logo */
-    max-width: 200px; /* Limit max width if needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space below the logo */
+    display: block;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
   }
+
+  .footer-logo img {
+    border-radius: 30%;
+    max-width: 250px;
+  }
+
   
   .footer-links,
   .footer-social {
@@ -443,4 +449,17 @@ a {
 
 .photo-button:hover {
     background-color: #218838; /* Darker green on hover */
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50px
 }

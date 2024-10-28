@@ -313,7 +313,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .navbar {
   background-color: #f1f1f1; /* Gray background */
-  border-radius: 50px; /* Rounded corners */
+  border-radius: 20px; /* Rounded corners */
   display: flex; /* Use flexbox for alignment */
   justify-content: center; /* Center links horizontally */
   padding: 10px; /* Padding inside the navbar */
@@ -405,7 +405,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     color: black; /* White text */
     width: 100%; /* Full width */
     padding: 20px; /* Padding inside the footer */
-    position: relative; /* Position relative for layout */
   }
   
   .footer-content {
@@ -414,15 +413,20 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
   
   .footer-logo {
-    width: 300px; /* Full-size logo */
-    height: 250px; /* Maintain aspect ratio */
-    margin-bottom: 40px; /* Space below the logo */
-    
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
   }
-  
+
+  .footer-logo img {
+    border-radius: 30%;
+    max-width: 250px;
+  }
+
   .footer-links,
   .footer-social {
     margin: 10px 0; /* Space between sections */
+    text-align: center;
   }
   
   .footer-link,
