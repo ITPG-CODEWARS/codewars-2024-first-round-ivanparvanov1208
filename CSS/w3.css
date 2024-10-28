@@ -413,6 +413,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
   
   .footer-logo {
+    display: block;
     max-width: 200px;
     height: auto;
     border-radius: 50px;
@@ -420,7 +421,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
   .footer-logo img {
     border-radius: 30%;
-    max-width: 250px;
+    max-width: 200px;
   }
 
   .footer-links,

@@ -329,7 +329,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   
   .footer {
     background: linear-gradient(to bottom, #28a745, white);
-    color: #fff; /* White text */
+    color: #000; /* White text */
     width: 100%; /* Full width */
     padding: 20px; /* Padding inside the footer */
     position: relative; /* Position relative for layout */
@@ -338,14 +338,21 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   .footer-content {
     max-width: 1500px; /* Max width for footer content */
     margin: 0 auto; /* Center the footer content */
+    text-align: center;
   }
   
   .footer-logo {
-    width: 100%; /* Full-size logo */
-    max-width: 200px; /* Limit max width if needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space below the logo */
+    display: block;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
   }
+
+  .footer-logo img {
+    border-radius: 30%;
+    max-width: 250px;
+  }
+
   
   .footer-links,
   .footer-social {

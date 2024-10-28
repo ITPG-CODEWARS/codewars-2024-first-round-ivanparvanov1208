@@ -337,6 +337,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   .footer-content {
     max-width: 1500px; /* Max width for footer content */
     margin: 0 auto; /* Center the footer content */
+    text-align: center;
   }
   
   .footer-logo {
